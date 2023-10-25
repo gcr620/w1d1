@@ -1,3 +1,6 @@
+body{
+            color: rgb(85, 85, 85);
+        }
 /* questo serve a centrare tutti i testi */
         #centro{
             text-align: center;
