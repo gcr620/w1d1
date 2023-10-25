@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W1D1</title>
+
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- div per centrare tutti i testi -->
+    <div id="centro">
+        <!-- logo in alto al centro della pagina -->
+            <img id="logo" src="logo.png" alt="Logo">
+        <!-- scritta con lo slogan, bordo superiore colorato, sfondo colorato e padding per rendere quest'ultimo più grande -->
+        <div id="color">
+            <p>Parte di un <b>SEMPLECE E FAVOLOSO RINGRAZIAMENTO</b></p> 
+        </div>
+            <!-- titolo della ricetta (ma chi mangia sta roba?), il br serve per mandarlo a capo come nella foto originale -->
+            <h1>
+                Focaccia con cipolla caramellata,<br> mirtilli e briè
+            </h1>          
+            <!-- intro della ricetta, ho usato left per ora così da mettere il testo sulla sinistra -->
+            <p class="left">
+                Stupisci le tue papille gustative con questa appetitosa focaccia ricoperta di cipolla caramellata,
+                mirtilli rossi e crema briè. Stai sicuro che sarà la tua nuova ricetta preferita! 
+            </p>
+            <!-- foto docaccia più strana mai vista (penzavo fosse una pizza prima di leggere) -->
+            <img id="focaccia" src="pizza.webp" alt="Foto Focaccia">
+            <!-- autore foto (non avevo fantasia per altri nomi) -->
+        <p id="autore">Foto: Mario Rossi</p>
+        <!-- fine div che centra i testi -->
+    </div id="centro">
+        <!-- da qui in poi i testi vanno allineati a sinistra -->
+        <div class="left">
+            <div id="barra">
+            <!-- collegamento per il libro originale -->
+            <p id="feat"> <b>PARTE DI:</b></p>
+            <p id="feat">
+              <b>
+                <!-- l'href serve solo per mettere la formattazione e il colore come nella foto, non porta da nessuna parte, il b serve per mettere il  grassetto sempre come nella foto-->
+                <a href="">Ricette con i mirtilli che vanno oltre la semplice marmellata</a>
+              </b>
+            </p>
+            </div>
+            <!-- </div> -->
+            <!-- lista ingredienti, ho aggiunto 2 hr per le linee di separazione colorate, ho provato a metterlo nel file css ma non mi prende il colore, ho inserito una spaziatura tra gli elementi della lista come nella foto -->
+            <h2>Ingredienti</h2>
+            <hr>
+            <h3>Per la focaccia:</h3>
+            <ul>
+               <li>4 tazze (500g) di farina</li>
+               <li>un mezzo cucchiaino di lievito</li> 
+               <li>un mezzo cucchiaino di sale</li>
+               <li>350g di acqua tiepida</li>
+               <li>1/4 di tazza di olio extra vergine di oliva</li>
+            </ul>
+            <h3>Per la guarnizione:</h3>
+            <ul>
+                <li>3 cipolle</li>
+                <li>un cucchiao di aceto balsamico</li>
+                <li>1-2 cucchiai di olio di oliva</li>
+                <li>280g di briè tagilata a cubi</li>
+                <li>una mezza tazza di mirtilli freschi</li>
+            </ul>
+            <!-- parte finale con il metodo, la parte dell'impasto ho fatto un id a parte per spostarla leggermente più a destra come nella foto -->
+            <h2>Metodo</h2>
+            <hr>
+            <h2>1. Impasta la focaccia</h2>
+            <p id="impasto">In una ciotola mescola gli ingredienti per l'impasto finchè la farina non è assorbita. Non hai bisogno di impastare anche se a volte impasto a mano per far assorbire per bene la farina....</p>
+            <!-- altro href usato solo per mettere l'effetto link -->
+            <p>Leggi di più su <a href="">Simply recipes</a></p>
+        </div> 
+</html>

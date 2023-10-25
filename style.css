@@ -1,0 +1,63 @@
+/* questo serve a centrare tutti i testi */
+        #centro{
+            text-align: center;
+        }
+        /* centra tutte le immagini */
+        div img{
+            margin: auto;
+        }
+        /* questo serve per rendere più piccolo il logo
+        ho aggiunto un pò di margine per mettere lo spazio tra logo e scritta */
+        #logo {
+            margin-bottom: 20px;
+            width: 10%;
+        }
+        /* questa è la scritta gialla, è stato modificato il bordo superiore rendendolo solido e poi colorato, è stata poi colorato il background del div così da rendere tutto giallo con aggiunta di padding per creare lo spazio, anche il testo all'interno del div è colorato ma di verde*/
+        #color{
+            border-top-style: solid;
+            border-top-color: rgb(253, 183, 53);
+            color: green;
+            background-color: rgb(253, 253, 232);
+            padding: 3px;
+        }
+        /* per mettere i testi a sinistra dopo la foto*/
+        .left{
+            text-align: left;
+            margin-left: 30%;
+            margin-right: 30%;
+        }
+        /* barra laterale a "parte di" */
+        #barra{
+            padding-left: 12px;
+            border-left-style: solid;
+            border-left-width: 1px;
+            border-left-color: rgb(255, 115, 0);
+        }
+        /* spaziatura tra gli elementi della lista */
+        li{
+            margin-bottom: 10px;
+        }
+        hr{
+            border-color: skyblue;
+            background-color: skyblue;
+            margin: 0;
+        }
+        /* ridimensiona l'immagine della focaccia */
+        #focaccia{
+            width: 40%;
+            height: 500px;
+        }
+        /* nome autore della foto */
+        #autore{
+            color: grey;
+        }
+        /* "parte di" */
+        #feat{
+           color: rgb(255, 115, 0);
+           margin-bottom: 1px;
+           margin-top: 1px;
+        }
+        /* serve per spostare la parte della ricetta un pò a sinistra */
+        #impasto{
+           margin-left: 3%; 
+        }
